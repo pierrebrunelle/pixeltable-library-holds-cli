@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt this example app, please cite it using these metadata."
+type: software
+title: "Library Hold Queues CLI built with Pixeltable"
+abstract: "A command-line hold queue for a public library: titles and patron holds as Pixeltable tables with computed shelf-slip codes and pickup deadlines, a pxt config doctor, and a service client that honors 503 Retry-After (JOB_REFUSED) from Pixeltable background job routes."
+authors:
+  - given-names: "Pierre"
+    family-names: "Brunelle"
+repository-code: "https://github.com/pierrebrunelle/pixeltable-library-holds-cli"
+url: "https://pierrebrunelle.github.io/awesome-pixeltable-apps/"
+license: Apache-2.0
+version: "0.1.0"
+date-released: 2026-11-01
+keywords:
+  - "pixeltable"
+  - "pixeltable-example"
+  - "python"
+  - "cli"
+  - "library"
+  - "hold-queue"
+  - "argparse"
+  - "retry-after"
+  - "rest-api"
+  - "multimodal"

@@ -1,0 +1,18 @@
+[project]
+name = "pixeltable-library-holds-cli"
+version = "0.1.0"
+description = "A command-line hold queue for a public library: titles and patron holds as Pixeltable tables with computed shelf-slip codes and pickup deadlines, a pxt config doctor, and a service client that honors 503 Retry-After (JOB_REFUSED) from Pixeltable background job routes - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "computed-columns", "data-infrastructure", "library-holds-cli"]
+dependencies = [
+    "pixeltable>=0.7.22",
+    "requests",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
